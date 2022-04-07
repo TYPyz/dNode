@@ -26,7 +26,9 @@ public class ModBlocks {
             () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
                     .noDrops().harvestLevel(4).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
 
-
+    public static final RegistryObject<Block> DIAMOND_SHARD_ORE = registerBlock("diamond_shard_ore",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .noDrops().harvestLevel(4).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
 
 
 

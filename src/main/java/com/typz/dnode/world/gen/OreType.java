@@ -6,7 +6,7 @@ import net.minecraftforge.common.util.Lazy;
 
 public enum OreType {
 
-    DIAMOND_NODE(Lazy.of(ModBlocks.DIAMOND_NODE), 5, 5, 13);
+    DIAMOND_SHARD_ORE(Lazy.of(ModBlocks.DIAMOND_SHARD_ORE), 5, 5, 13);
 
     private final Lazy<Block> block;
     private final int maxVeinSize;

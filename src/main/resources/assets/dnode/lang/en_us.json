@@ -1,5 +1,6 @@
 {
   "item.dnode.diamond_shard": "Diamond Shard",
   "block.dnode.diamond_node": "Diamond Node",
+  "block.dnode.diamond_shard_ore": "Diamond Shard Ore",
   "itemGroup.dNodeTab": "dNode"
 }
